@@ -1,0 +1,7 @@
+for t in 1 2 4 8 16; do sudo perf sched record -a -o perf.lcpan.t${t}.sched.data -- /home/akmuhammet/programs/lcpan/bin/lcpan -vg -r human_v38.fa -v hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.lcpan.t${t} -t ${t} --gfa; rm -f *.${t} *.p *.log; done
+
+# Runtime, Time waiting, Average delay, Max delay
+for t in 1 2 4 8 16; do sudo perf sched timehist --summary -i perf.lcpan.t${t}.sched.data > perf.lcpan.sched.t${t}.summary.txt; done
+
+# Latency
+for t in 1 2 4 8 16; do sudo perf sched latency -i perf.lcpan.t${t}.sched.data > perf.lcpan.sched.t${t}.latency.txt; done

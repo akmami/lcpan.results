@@ -1,0 +1,29 @@
+[INFO] Processing reference...
+[INFO] Processing variations...
+
+ Performance counter stats for '/home/akmuhammet/programs/lcpan/bin/lcpan -vg -r human_v38.fa -v hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.lcpan.t1 -t 1 --gfa':
+
+        462,245.90 msec task-clock                #    1.051 CPUs utilized          
+         4,777,754      context-switches          #   10.336 K/sec                  
+                45      cpu-migrations            #    0.097 /sec                   
+        35,951,275      page-faults               #   77.775 K/sec                  
+ 1,354,327,299,644      cycles                    #    2.930 GHz                    
+ 3,191,697,836,237      instructions              #    2.36  insn per cycle         
+   622,825,391,948      branches                  #    1.347 G/sec                  
+     9,544,645,613      branch-misses             #    1.53% of all branches        
+ 6,771,580,551,105      slots                     #   14.649 G/sec                  
+ 1,172,289,086,530      topdown-retiring          #     14.9% retiring              
+ 5,974,023,521,961      topdown-bad-spec          #     75.9% bad speculation       
+   488,073,428,574      topdown-fe-bound          #      6.2% frontend bound        
+   240,719,143,081      topdown-be-bound          #      3.1% backend bound         
+   728,415,870,368      L1-dcache-loads           #    1.576 G/sec                  
+    19,106,011,450      L1-dcache-load-misses     #    2.62% of all L1-dcache accesses
+       874,091,923      LLC-loads                 #    1.891 M/sec                  
+       352,347,649      LLC-load-misses           #   40.31% of all LL-cache accesses
+
+     439.892808814 seconds time elapsed
+
+     368.598628000 seconds user
+     104.655811000 seconds sys
+
+

@@ -1,0 +1,40 @@
+
+ Performance counter stats for thread id '1948650,1952377,1952378,1952379,1952380,1952381,1952382,1952383,1952384,1952385,1952386,1952387,1952388,1952389,1952390,1952391,1952392':
+
+       worker-15-1952391           34,524.79 msec task-clock                #    0.254 CPUs utilized          
+       worker-16-1952392           30,204.27 msec task-clock                #    0.222 CPUs utilized          
+        worker-5-1952388           42,897.79 msec task-clock                #    0.315 CPUs utilized          
+       worker-14-1952390           38,528.86 msec task-clock                #    0.283 CPUs utilized          
+       worker-10-1952386           34,075.98 msec task-clock                #    0.250 CPUs utilized          
+        worker-3-1952389           33,053.66 msec task-clock                #    0.243 CPUs utilized          
+        worker-6-1952380           58,777.47 msec task-clock                #    0.432 CPUs utilized          
+            main-1948650           84,518.42 msec task-clock                #    0.621 CPUs utilized          
+        worker-1-1952377           67,242.94 msec task-clock                #    0.494 CPUs utilized          
+        worker-8-1952385           28,547.37 msec task-clock                #    0.210 CPUs utilized          
+       worker-12-1952387           32,473.79 msec task-clock                #    0.239 CPUs utilized          
+       worker-13-1952383           27,889.64 msec task-clock                #    0.205 CPUs utilized          
+       worker-11-1952382           31,798.73 msec task-clock                #    0.234 CPUs utilized          
+        worker-7-1952381           31,529.87 msec task-clock                #    0.232 CPUs utilized          
+        worker-9-1952384           31,433.59 msec task-clock                #    0.231 CPUs utilized          
+        worker-2-1952378           35,266.70 msec task-clock                #    0.259 CPUs utilized          
+        worker-4-1952379           34,343.32 msec task-clock                #    0.252 CPUs utilized          
+            main-1948650           1,308,943      context-switches          #   32.863 K/sec                  
+       worker-13-1952383           1,034,513      context-switches          #   25.973 K/sec                  
+        worker-8-1952385           1,034,131      context-switches          #   25.964 K/sec                  
+       worker-16-1952392           1,012,740      context-switches          #   25.427 K/sec                  
+        worker-7-1952381             995,075      context-switches          #   24.983 K/sec                  
+       worker-11-1952382             958,642      context-switches          #   24.068 K/sec                  
+        worker-6-1952380             912,385      context-switches          #   22.907 K/sec                  
+        worker-4-1952379             863,654      context-switches          #   21.684 K/sec                  
+        worker-9-1952384             850,328      context-switches          #   21.349 K/sec                  
+        worker-3-1952389             846,391      context-switches          #   21.250 K/sec                  
+       worker-10-1952386             826,780      context-switches          #   20.758 K/sec                  
+       worker-12-1952387             823,638      context-switches          #   20.679 K/sec                  
+        worker-2-1952378             819,211      context-switches          #   20.568 K/sec                  
+        worker-5-1952388             797,299      context-switches          #   20.018 K/sec                  
+       worker-15-1952391             789,439      context-switches          #   19.820 K/sec                  
+       worker-14-1952390             729,422      context-switches          #   18.313 K/sec                  
+        worker-1-1952377             607,537      context-switches          #   15.253 K/sec                  
+
+     136.146749680 seconds time elapsed
+

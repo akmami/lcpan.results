@@ -1,0 +1,20 @@
+# started on Sun Mar  1 12:32:59 2026
+
+
+ Performance counter stats for '/home/akmuhammet/programs/lcpan/bin/lcpan -vg -r human_v38.fa -v hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.perfstat.t8 -t 8 --gfa':
+
+ 1,280,878,828,155      cycles                                                      
+ 2,670,802,766,017      instructions              #    2.09  insn per cycle         
+     3,973,230,614      cache-misses                                                
+       760,789,745      LLC-load-misses                                             
+       535,172,740      LLC-store-misses                                            
+         6,541,467      context-switches                                            
+                51      cpu-migrations                                              
+        36,028,890      page-faults                                                 
+
+     141.117953464 seconds time elapsed
+
+     324.130060000 seconds user
+     106.546781000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for thread id '1943173,1946899,1946900,1946901,1946902':
+
+        worker-3-1946900           78,391.07 msec task-clock                #    0.775 CPUs utilized          
+        worker-4-1946902           60,900.79 msec task-clock                #    0.602 CPUs utilized          
+        worker-1-1946899           68,633.69 msec task-clock                #    0.679 CPUs utilized          
+        worker-2-1946901           59,623.15 msec task-clock                #    0.590 CPUs utilized          
+            main-1943173           54,747.46 msec task-clock                #    0.541 CPUs utilized          
+        worker-3-1946900           1,278,284      context-switches          #   19.831 K/sec                  
+        worker-1-1946899           1,177,870      context-switches          #   18.273 K/sec                  
+        worker-2-1946901             912,162      context-switches          #   14.151 K/sec                  
+        worker-4-1946902             541,904      context-switches          #    8.407 K/sec                  
+            main-1943173             268,760      context-switches          #    4.169 K/sec                  
+
+     101.108654460 seconds time elapsed
+

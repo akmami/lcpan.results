@@ -1,0 +1,10 @@
+
+ Performance counter stats for thread id '1982414,1986130':
+
+            main-1982414           71,617.75 msec task-clock                #    0.243 CPUs utilized          
+        worker-1-1986130          254,745.89 msec task-clock                #    0.863 CPUs utilized          
+        worker-1-1986130           3,003,676      context-switches          #   18.407 K/sec                  
+            main-1982414             481,868      context-switches          #    2.953 K/sec                  
+
+     295.316159253 seconds time elapsed
+

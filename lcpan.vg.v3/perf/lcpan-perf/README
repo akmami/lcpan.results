@@ -1,0 +1,9 @@
+for t in 1 2 4 8 16; do sudo perf record -o perf.lcpan.t${t}.data -F 999 -g --call-graph dwarf -- /home/akmuhammet/programs/lcpan/bin/lcpan -vg -r human_v38.fa -v hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.lcpan.t${t} -t ${t} --gfa; rm -f *.${t} *.p *.log; done
+
+for t in 1 2 4 8 16; do sudo perf report --stdio -i perf.lcpan.t${t}.data --no-children > perf.lcpan.t${t}.report.txt; done
+
+for t in 1 2 4 8 16; do sudo perf report --stdio -i perf.lcpan.t${t}.data --percent-limit 0 --no-children | egrep -i 'futex|pthread_cond|pthread_mutex|__lll_lock|sched_yield|nanosleep' > analysis/perf.lcpan.t${t}.sync_indicators.txt; done
+
+for t in 1 2 4 8 16; do sudo perf report --stdio -i perf.lcpan.t${t}.data --no-children --percent-limit 0 --sort comm,dso --stdio > perf.lcpan.t${t}.comm_dso_head.txt; done
+
+for t in 1 2 4 8 16; do sudo perf report --stdio -i perf.lcpan.t${t}.data --percent-limit 0 --no-children | egrep -i 'memcpy|memmove|memset|malloc|free|realloc|tcache|arena|new |delete ' > perf.lcpan.t${t}.mem_alloc_indicators.txt; done

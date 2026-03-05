@@ -1,0 +1,1 @@
+for t in 1 2 4 8 16; do sudo perf stat -e cycles,instructions,cache-misses,LLC-load-misses,LLC-store-misses,context-switches,cpu-migrations,page-faults -o perfstat.t${t}.aggregate.txt -- /home/akmuhammet/programs/lcpan/bin/lcpan -vg -r human_v38.fa -v hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.perfstat.t${t} -t ${t} --gfa; rm -f *.${N} *.p *.log; done

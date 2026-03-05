@@ -1,0 +1,92 @@
+[INFO] Ref: /tmp/lcpan/human_v38.fa
+[INFO] VCF: /tmp/lcpan/hprc-v1.0-pggb.grch38.1-22+X.vcf
+[INFO] Output: hg38.pggb.lcpan.l5.rgfa
+[INFO] GFA: rGFA, NonOv/Ov: NonOv, LCP level: 5, thd: 1
+[INFO] Processing reference...
+[INFO] Reference processing completed in 83.00 sec.
+[INFO] Processing variations...
+[INFO] VCF processing completed in 261.00 sec.
+	Command being timed: "/home/akmuhammet/programs/lcpan/bin/lcpan -vg -r /tmp/lcpan/human_v38.fa -v /tmp/lcpan/hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.lcpan.l5 -l 5 --verbose"
+	User time (seconds): 315.70
+	System time (seconds): 67.96
+	Percent of CPU this job got: 109%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:50.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7336016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35790368
+	Voluntary context switches: 1346610
+	Involuntary context switches: 1068
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 55812720
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash /home/akmuhammet/programs/lcpan/lcpan-merge.sh hg38.pggb.lcpan.l5.log"
+	User time (seconds): 0.03
+	System time (seconds): 18.62
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2687
+	Voluntary context switches: 55
+	Involuntary context switches: 273
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 55812688
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[INFO] Parsed rGFA successfully
+	Command being timed: "/home/akmuhammet/programs/akhal/akhal parse hg38.pggb.lcpan.l5.rgfa"
+	User time (seconds): 311.70
+	System time (seconds): 19.44
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:31.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28036684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7033301
+	Voluntary context switches: 2
+	Involuntary context switches: 645
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Segment count: 196920897
+Rank 0 segment count: 70805266
+Rank 0< segment count: 126115631
+Segment avg length: 54.321011
+Segment std length: 32.002277
+Segment min. length 1
+Segment max. length 44399
+Link count: 212114363
+Link overlapping avg length: 0.000000
+Link overlapping std length: 0.000000
+Minimum in degree: 1
+Maximum in degree: 327
+Minimum out degree: 1
+Maximum out degree: 327

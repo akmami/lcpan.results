@@ -1,0 +1,24 @@
+
+ Performance counter stats for thread id '1952416,1956097,1956098,1956099,1956100,1956101,1956102,1956103,1956104':
+
+        worker-6-1956101           35,591.92 msec task-clock                #    0.413 CPUs utilized          
+        worker-8-1956104           35,123.98 msec task-clock                #    0.408 CPUs utilized          
+        worker-4-1956100           35,102.82 msec task-clock                #    0.408 CPUs utilized          
+        worker-5-1956102           34,844.15 msec task-clock                #    0.405 CPUs utilized          
+        worker-2-1956099           59,881.66 msec task-clock                #    0.696 CPUs utilized          
+        worker-7-1956103           50,611.75 msec task-clock                #    0.588 CPUs utilized          
+        worker-3-1956098           54,625.02 msec task-clock                #    0.635 CPUs utilized          
+        worker-1-1956097           41,577.30 msec task-clock                #    0.483 CPUs utilized          
+            main-1952416           57,360.29 msec task-clock                #    0.666 CPUs utilized          
+        worker-2-1956099           1,220,100      context-switches          #   27.132 K/sec                  
+        worker-4-1956100           1,195,665      context-switches          #   26.589 K/sec                  
+        worker-7-1956103           1,169,726      context-switches          #   26.012 K/sec                  
+        worker-5-1956102           1,125,985      context-switches          #   25.039 K/sec                  
+        worker-6-1956101           1,094,009      context-switches          #   24.328 K/sec                  
+        worker-8-1956104           1,004,143      context-switches          #   22.330 K/sec                  
+        worker-1-1956097             987,687      context-switches          #   21.964 K/sec                  
+            main-1952416             888,004      context-switches          #   19.747 K/sec                  
+        worker-3-1956098             533,883      context-switches          #   11.872 K/sec                  
+
+      86.090291238 seconds time elapsed
+
