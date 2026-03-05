@@ -1,0 +1,24 @@
+
+Execution time (s): 513.56
+Merge time (s): 33.13
+Total runtime (s): 546.69
+Max RAM usage (GB): 8.63
+File size (GB): 45307.34
+
+Execution time (s): 430.16
+Merge time (s): 19.60
+Total runtime (s): 449.76
+Max RAM usage (GB): 6.98
+File size (GB): 27252.31
+
+Execution time (s): 392.80
+Merge time (s): 13.58
+Total runtime (s): 406.38
+Max RAM usage (GB): 6.27
+File size (GB): 19560.23
+
+Execution time (s): 380.47
+Merge time (s): 12.29
+Total runtime (s): 392.76
+Max RAM usage (GB): 5.89
+File size (GB): 16274.52

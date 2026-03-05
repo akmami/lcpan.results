@@ -1,0 +1,19 @@
+/home/akmuhammet/data/hg002/hg002v1.0.1_hifi_revio_pbmay24.fa stats:
+Total reads: 5764123
+Average read length: 15975.15
+Depth: 29.82
+
+
+align.hg002.hifi.lcpan.out stats:
+Stats for align.hg002.hifi.lcpan.out
+Alignment time (hh:mm:ss): 63:46:26
+RAM usage (GB): 220.08
+
+align.hg002.hifi.vg.out stats:
+Stats for align.hg002.hifi.vg.out
+Alignment time (hh:mm:ss): 91:34:26
+RAM usage (GB): 411.91
+
+Method	TP	FP	FN	Precision	Recall	F1
+hifi.vg	37795	62591	14429	0.37649	0.72370	0.49530
+hifi.lcpan	27818	29430	24406	0.48592	0.53266	0.50821

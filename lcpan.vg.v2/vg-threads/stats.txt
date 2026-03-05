@@ -1,0 +1,35 @@
+hg38.pggb.vg.gfa stats:
+Execution time (s): 2099.77
+Merge time (s): 2959.65
+Total runtime (s): 5059.42
+Max RAM usage (GB): 114.43
+File size (GB): 33.83
+
+hg38.pggb.vg stats:
+Execution time (s): 2099.37
+Merge time (s): 2795.01
+Total runtime (s): 4894.38
+Max RAM usage (GB): 114.42
+File size (GB): 36.21
+
+hg38.pggb.vg stats:
+Execution time (s): 2096.12
+Merge time (s): 2741.96
+Total runtime (s): 4838.08
+Max RAM usage (GB): 114.46
+File size (GB): 36.21
+
+hg38.pggb.vg stats:
+Execution time (s): 2097.99
+Merge time (s): 2871.57
+Total runtime (s): 4969.56
+Max RAM usage (GB): 114.40
+File size (GB): 36.21
+
+hg38.pggb.vg stats:
+Execution time (s): 2095.88
+Merge time (s): 2829.33
+Total runtime (s): 4925.21
+Max RAM usage (GB): 114.37
+File size (GB): 36.21
+

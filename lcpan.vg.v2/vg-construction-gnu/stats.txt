@@ -1,0 +1,36 @@
+Thread 1 stats:
+Execution time (s): 2228.24
+Merge time (s): 2726.57
+Total runtime (s): 4954.81
+Max RAM usage (GB): 114.53
+File size VG (GB): 
+File size GFA (GB): 
+
+Thread 2 stats:
+Execution time (s): 1049.87
+Merge time (s): 2771.86
+Total runtime (s): 3821.73
+Max RAM usage (GB): 114.53
+File size VG (GB): 
+
+Thread 4 stats:
+Execution time (s): 536.81
+Merge time (s): 2772.72
+Total runtime (s): 3309.53
+Max RAM usage (GB): 114.40
+File size VG (GB): 
+
+Thread 8 stats:
+Execution time (s): 277.66
+Merge time (s): 2730.98
+Total runtime (s): 3008.64
+Max RAM usage (GB): 114.55
+File size VG (GB): 
+
+Thread 16 stats:
+Execution time (s): 149.15
+Merge time (s): 2780.62
+Total runtime (s): 2929.77
+Max RAM usage (GB): 114.52
+File size VG (GB): 
+

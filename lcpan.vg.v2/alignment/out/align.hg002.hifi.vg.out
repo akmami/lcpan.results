@@ -1,0 +1,45 @@
+GraphAligner Branch master commit b9a6fdc831c8a3177b102f9aceed25edf76181f3 2024-12-02 14:29:24 +0200
+GraphAligner Branch master commit b9a6fdc831c8a3177b102f9aceed25edf76181f3 2024-12-02 14:29:24 +0200
+Load graph from human_v38.pggb.vg.gfa
+Build alignment graph
+Build minimizer seeder from the graph
+Minimizer seeds, length 15, window size 20, density 10
+Seed cluster size 1
+Extend up to 5 seed clusters
+Alignment bandwidth 10
+Clip alignment ends with identity < 66%
+X-drop DP score cutoff 14705
+Backtrace from 10 highest scoring local maxima per cluster
+write alignments to hg002.hifi.vg.gaf
+Align
+Alignment finished
+Input reads: 5764123 (92082755430bp)
+Seeds found: 924709118369
+Seeds extended: 28820615
+Reads with a seed: 5764123 (92082755430bp)
+Reads with an alignment: 5764123 (91998965391bp)
+Alignments: 12542938 (169476483654bp) (15163580 additional alignments discarded)
+End-to-end alignments: 6714561 (104874467126bp)
+	Command being timed: "/home/akmuhammet/tools/GraphAligner/bin/GraphAligner -g human_v38.pggb.vg.gfa -f /home/akmuhammet/data/hg002/hg002v1.0.1_hifi_revio_pbmay24.fa -a hg002.hifi.vg.gaf -x vg -t 96"
+	User time (seconds): 30550656.55
+	System time (seconds): 197961.36
+	Percent of CPU this job got: 9327%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 91:34:26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 431927452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 43413
+	Minor (reclaiming a frame) page faults: 51950187671
+	Voluntary context switches: 508793845
+	Involuntary context switches: 61247828
+	Swaps: 0
+	File system inputs: 251498616
+	File system outputs: 85740648
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,45 @@
+GraphAligner Branch master commit b9a6fdc831c8a3177b102f9aceed25edf76181f3 2024-12-02 14:29:24 +0200
+GraphAligner Branch master commit b9a6fdc831c8a3177b102f9aceed25edf76181f3 2024-12-02 14:29:24 +0200
+Load graph from hg38.chr1_10_22.pggb.lcpan.gfa
+Build alignment graph
+Build minimizer seeder from the graph
+Minimizer seeds, length 15, window size 20, density 10
+Seed cluster size 1
+Extend up to 5 seed clusters
+Alignment bandwidth 10
+Clip alignment ends with identity < 66%
+X-drop DP score cutoff 14705
+Backtrace from 10 highest scoring local maxima per cluster
+write alignments to hg002.chr1_10_22.hifi.lcpan.gaf
+Align
+Alignment finished
+Input reads: 820665 (13094219379bp)
+Seeds found: 123731385305
+Seeds extended: 4103325
+Reads with a seed: 820665 (13094219379bp)
+Reads with an alignment: 820665 (13061488780bp)
+Alignments: 2736759 (27713278418bp) (2990560 additional alignments discarded)
+End-to-end alignments: 1082153 (16843322752bp)
+	Command being timed: "/home/akmuhammet/tools/GraphAligner/bin/GraphAligner -g hg38.chr1_10_22.pggb.lcpan.gfa -f ../reads/hg002v1.0.1_hifi_revio_pbmay24.chr1_10_22.subsampled.fa -a hg002.chr1_10_22.hifi.lcpan.gaf -x vg -t 96"
+	User time (seconds): 2265657.11
+	System time (seconds): 32643.16
+	Percent of CPU this job got: 9363%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:49:06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 86001492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8340161414
+	Voluntary context switches: 73320852
+	Involuntary context switches: 3966519
+	Swaps: 0
+	File system inputs: 440
+	File system outputs: 14824880
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,90 @@
+[INFO] Ref: ../hg38.fa
+[INFO] VCF: ../pggb.vcf
+[INFO] Output: hg38.pggb.lcpan.l5.gfa
+[INFO] GFA: GFA, NonOv/Ov: NonOv, LCP level: 5, thd: 1
+[INFO] Processing reference...
+[INFO] Processing variations...
+	Command being timed: "/home/akmuhammet/programs/lcpan/bin/lcpan -vg -r ../hg38.fa -v ../pggb.vcf -p hg38.pggb.lcpan.l5 -l 5 --verbose --gfa"
+	User time (seconds): 366.30
+	System time (seconds): 74.06
+	Percent of CPU this job got: 108%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:46.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7332360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35893755
+	Voluntary context switches: 3488267
+	Involuntary context switches: 1027
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 39739056
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash /home/akmuhammet/programs/lcpan/lcpan-merge.sh hg38.pggb.lcpan.l5.log"
+	User time (seconds): 0.04
+	System time (seconds): 14.11
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2621
+	Voluntary context switches: 48
+	Involuntary context switches: 161
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 39739024
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[INFO] Parsed GFA successfully
+	Command being timed: "/home/akmuhammet/programs/akhal/akhal parse hg38.pggb.lcpan.l5.gfa"
+	User time (seconds): 269.72
+	System time (seconds): 26.31
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:56.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28036696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9072073
+	Voluntary context switches: 2
+	Involuntary context switches: 284
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Segment count: 196921188
+Rank 0 segment count: 70805284
+Rank 0< segment count: 126115904
+Segment avg length: 54.320930
+Segment std length: 31.996910
+Segment min. length 1
+Segment max. length 44399
+Link count: 212114654
+Link overlapping avg length: 0.000000
+Link overlapping std length: 0.000000
+Minimum in degree: 1
+Maximum in degree: 327
+Minimum out degree: 1
+Maximum out degree: 327

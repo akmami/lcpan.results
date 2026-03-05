@@ -1,0 +1,78 @@
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr1; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr2; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr2; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr2; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr3; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr3; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr3; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr6; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr7; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr9; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr10; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr10; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr10; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr12; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr12; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr13; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr16; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr17; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr17; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr21; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chr22; coercing to N.
+warning:[vg::Constructor] Unsupported IUPAC ambiguity codes found in chrX; coercing to N.
+	Command being timed: "bash -c 
+            i=0
+            while read -r region; do
+                output_file="chunk.${i}.vg"
+                vg construct -r "$1" \
+                            -v "$2" \
+                            -f -R "$region" \
+                            -t "$3" > "$output_file"
+                ((i++))
+            done < hg38.chunks.txt
+         _ /home/akmuhammet/data/reference/human_v38.fa /home/akmuhammet/data/hprc/hprc-v1.0-pggb.grch38.1-22+X.renamed.vcf.gz 2"
+	User time (seconds): 1861.93
+	System time (seconds): 236.56
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:59.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9634416
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 154117633
+	Voluntary context switches: 3272
+	Involuntary context switches: 6707
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 13940896
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "vg combine -p chunk.0.vg chunk.100.vg chunk.101.vg chunk.102.vg chunk.103.vg chunk.104.vg chunk.105.vg chunk.106.vg chunk.107.vg chunk.108.vg chunk.109.vg chunk.10.vg chunk.110.vg chunk.111.vg chunk.112.vg chunk.113.vg chunk.114.vg chunk.115.vg chunk.116.vg chunk.117.vg chunk.118.vg chunk.119.vg chunk.11.vg chunk.120.vg chunk.121.vg chunk.122.vg chunk.123.vg chunk.124.vg chunk.125.vg chunk.126.vg chunk.127.vg chunk.128.vg chunk.129.vg chunk.12.vg chunk.130.vg chunk.131.vg chunk.132.vg chunk.133.vg chunk.134.vg chunk.135.vg chunk.136.vg chunk.137.vg chunk.138.vg chunk.139.vg chunk.13.vg chunk.140.vg chunk.141.vg chunk.142.vg chunk.143.vg chunk.144.vg chunk.145.vg chunk.146.vg chunk.147.vg chunk.148.vg chunk.149.vg chunk.14.vg chunk.150.vg chunk.151.vg chunk.152.vg chunk.153.vg chunk.154.vg chunk.155.vg chunk.156.vg chunk.157.vg chunk.158.vg chunk.159.vg chunk.15.vg chunk.160.vg chunk.161.vg chunk.162.vg chunk.163.vg chunk.164.vg chunk.165.vg chunk.166.vg chunk.167.vg chunk.168.vg chunk.169.vg chunk.16.vg chunk.170.vg chunk.171.vg chunk.172.vg chunk.173.vg chunk.174.vg chunk.175.vg chunk.176.vg chunk.177.vg chunk.178.vg chunk.179.vg chunk.17.vg chunk.180.vg chunk.181.vg chunk.182.vg chunk.183.vg chunk.184.vg chunk.185.vg chunk.186.vg chunk.187.vg chunk.188.vg chunk.189.vg chunk.18.vg chunk.190.vg chunk.191.vg chunk.192.vg chunk.193.vg chunk.194.vg chunk.195.vg chunk.196.vg chunk.197.vg chunk.198.vg chunk.199.vg chunk.19.vg chunk.1.vg chunk.200.vg chunk.201.vg chunk.202.vg chunk.203.vg chunk.204.vg chunk.205.vg chunk.206.vg chunk.207.vg chunk.208.vg chunk.209.vg chunk.20.vg chunk.210.vg chunk.211.vg chunk.212.vg chunk.213.vg chunk.214.vg chunk.215.vg chunk.216.vg chunk.217.vg chunk.218.vg chunk.219.vg chunk.21.vg chunk.220.vg chunk.221.vg chunk.222.vg chunk.223.vg chunk.224.vg chunk.225.vg chunk.226.vg chunk.227.vg chunk.228.vg chunk.229.vg chunk.22.vg chunk.230.vg chunk.231.vg chunk.232.vg chunk.233.vg chunk.234.vg chunk.235.vg chunk.236.vg chunk.237.vg chunk.238.vg chunk.239.vg chunk.23.vg chunk.240.vg chunk.241.vg chunk.242.vg chunk.243.vg chunk.244.vg chunk.245.vg chunk.246.vg chunk.247.vg chunk.248.vg chunk.249.vg chunk.24.vg chunk.250.vg chunk.251.vg chunk.252.vg chunk.253.vg chunk.254.vg chunk.255.vg chunk.256.vg chunk.257.vg chunk.258.vg chunk.259.vg chunk.25.vg chunk.260.vg chunk.261.vg chunk.262.vg chunk.263.vg chunk.264.vg chunk.265.vg chunk.266.vg chunk.267.vg chunk.268.vg chunk.269.vg chunk.26.vg chunk.270.vg chunk.271.vg chunk.272.vg chunk.273.vg chunk.274.vg chunk.275.vg chunk.276.vg chunk.277.vg chunk.278.vg chunk.279.vg chunk.27.vg chunk.280.vg chunk.281.vg chunk.282.vg chunk.283.vg chunk.284.vg chunk.285.vg chunk.286.vg chunk.287.vg chunk.288.vg chunk.289.vg chunk.28.vg chunk.290.vg chunk.291.vg chunk.292.vg chunk.293.vg chunk.294.vg chunk.295.vg chunk.296.vg chunk.297.vg chunk.298.vg chunk.299.vg chunk.29.vg chunk.2.vg chunk.300.vg chunk.301.vg chunk.302.vg chunk.303.vg chunk.304.vg chunk.305.vg chunk.306.vg chunk.307.vg chunk.308.vg chunk.309.vg chunk.30.vg chunk.310.vg chunk.311.vg chunk.312.vg chunk.313.vg chunk.314.vg chunk.315.vg chunk.316.vg chunk.317.vg chunk.318.vg chunk.319.vg chunk.31.vg chunk.320.vg chunk.321.vg chunk.32.vg chunk.33.vg chunk.34.vg chunk.35.vg chunk.36.vg chunk.37.vg chunk.38.vg chunk.39.vg chunk.3.vg chunk.40.vg chunk.41.vg chunk.42.vg chunk.43.vg chunk.44.vg chunk.45.vg chunk.46.vg chunk.47.vg chunk.48.vg chunk.49.vg chunk.4.vg chunk.50.vg chunk.51.vg chunk.52.vg chunk.53.vg chunk.54.vg chunk.55.vg chunk.56.vg chunk.57.vg chunk.58.vg chunk.59.vg chunk.5.vg chunk.60.vg chunk.61.vg chunk.62.vg chunk.63.vg chunk.64.vg chunk.65.vg chunk.66.vg chunk.67.vg chunk.68.vg chunk.69.vg chunk.6.vg chunk.70.vg chunk.71.vg chunk.72.vg chunk.73.vg chunk.74.vg chunk.75.vg chunk.76.vg chunk.77.vg chunk.78.vg chunk.79.vg chunk.7.vg chunk.80.vg chunk.81.vg chunk.82.vg chunk.83.vg chunk.84.vg chunk.85.vg chunk.86.vg chunk.87.vg chunk.88.vg chunk.89.vg chunk.8.vg chunk.90.vg chunk.91.vg chunk.92.vg chunk.93.vg chunk.94.vg chunk.95.vg chunk.96.vg chunk.97.vg chunk.98.vg chunk.99.vg chunk.9.vg"
+	User time (seconds): 2653.59
+	System time (seconds): 138.97
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 46:35.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 119987212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50108892
+	Voluntary context switches: 39
+	Involuntary context switches: 9917
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 75941864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

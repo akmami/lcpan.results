@@ -1,0 +1,45 @@
+hg002.chr1_10_22.hifi.lcpan.out stats:
+Stats for hg002.chr1_10_22.hifi.lcpan.out
+Alignment time (hh:mm:ss): 06:49:06
+RAM usage (GB): 82.01
+
+hg002.chr1_10_22.hifi.vg.out stats:
+Stats for hg002.chr1_10_22.hifi.vg.out
+Alignment time (hh:mm:ss): 08:12:07
+RAM usage (GB): 83.08
+
+hg002.chr1_10_22.ont.lcpan.out stats:
+Stats for hg002.chr1_10_22.ont.lcpan.out
+Alignment time (hh:mm:ss): 06:19:06
+RAM usage (GB): 114.57
+
+hg002.chr1_10_22.ont.vg.out stats:
+Stats for hg002.chr1_10_22.ont.vg.out
+Alignment time (hh:mm:ss): 07:42:47
+RAM usage (GB): 103.29
+
+hg002.chr1_10_22.85.lcpan.out stats:
+Stats for hg002.chr1_10_22.85.lcpan.out
+Alignment time (hh:mm:ss): 06:35:18
+RAM usage (GB): 82.01
+
+hg002.chr1_10_22.85.vg.out stats:
+Stats for hg002.chr1_10_22.85.vg.out
+Alignment time (hh:mm:ss): 07:46:59
+RAM usage (GB): 83.08
+
+../reads/hg002v1.0.1_hifi_revio_pbmay24.chr1_10_22.subsampled.fa stats:
+Total reads: 820665
+Average read length: 15955.62
+Depth: 30.20
+
+../reads/hg002v1.0_ont_r10_ul_dorado.chr1_10_22.subsampled.fa stats:
+Total reads: 281312
+Average read length: 47000.65
+Depth: 30.50
+
+Method	TP	FP	FN	Precision	Recall	F1
+hifi.lcpan	5373	8111	2250	0.39847	0.70484	0.50911
+hifi.vg	5496	8990	2127	0.37940	0.72097	0.49716
+ont.lcpan	5308	7637	2315	0.41004	0.69631	0.51612
+ont.vg	5376	7534	2247	0.41642	0.70523	0.52363

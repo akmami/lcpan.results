@@ -1,0 +1,60 @@
+[INFO] Processed FA
+[INFO] Processed GFA
+[INFO] Stats:
+[INFO] # of reads: 5764123
+[INFO] # of reads aligned in forward strands: 3613642
+[INFO] # of reads aligned in reverse strands: 3577633
+[INFO] # of reads aligned provided in invalid format: 0
+[INFO] # of alignments that only mapped to segments with rank 0: 3546867
+[INFO] # of alignments that only mapped to segments with rank 1: 673333
+[INFO] # of alignments that mapped to segments with ranks 0 and 1: 2971075
+[INFO] # of alignments that mapped to segments with ranks 1<: 0
+[INFO] Stats: read/segment/strand/rank/qual/other: 0/0/0/0/3592629/0
+[INFO] Processed GAF.
+	Command being timed: "/home/akmuhammet/programs/akhal/akhal gaf2sam human_v38.pggb.lcpan.gfa hg002.hifi.lcpan.gaf /home/akmuhammet/data/hg002/hg002v1.0.1_hifi_revio_pbmay24.fa hg002.hifi.lcpan.sam --simple"
+	User time (seconds): 1559.59
+	System time (seconds): 331.27
+	Percent of CPU this job got: 58%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 53:31.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 118473728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55762332
+	Voluntary context switches: 566048
+	Involuntary context switches: 5542
+	Swaps: 0
+	File system inputs: 106893496
+	File system outputs: 210314088
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[INFO] correct: 6517942, incorrect: 0
+	Command being timed: "/home/akmuhammet/programs/akhal/akhal sampoke human_v38.fa hg002.hifi.lcpan.sam hg002.hifi.lcpan.qual.sam"
+	User time (seconds): 577.12
+	System time (seconds): 208.31
+	Percent of CPU this job got: 41%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 31:35.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3021844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 755110
+	Voluntary context switches: 1694957
+	Involuntary context switches: 2590
+	Swaps: 0
+	File system inputs: 216446400
+	File system outputs: 210314088
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

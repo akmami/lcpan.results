@@ -1,0 +1,47 @@
+GraphAligner Branch master commit b9a6fdc831c8a3177b102f9aceed25edf76181f3 2024-12-02 14:29:24 +0200
+GraphAligner Branch master commit b9a6fdc831c8a3177b102f9aceed25edf76181f3 2024-12-02 14:29:24 +0200
+Load graph from human_v38.pggb.lcpan.gfa
+Build alignment graph
+Build minimizer seeder from the graph
+Minimizer seeds, length 15, window size 20, density 10
+Seed cluster size 1
+Extend up to 5 seed clusters
+Alignment bandwidth 10
+Clip alignment ends with identity < 66%
+X-drop DP score cutoff 14705
+Backtrace from 10 highest scoring local maxima per cluster
+write alignments to hg002.hifi.lcpan.gaf
+Align
+src/GraphAligner.h:657: Assertion 'trace.trace[i].DPposition.seqPos == trace.trace[i-1].DPposition.seqPos || trace.trace[i].DPposition.seqPos == trace.trace[i-1].DPposition.seqPos+1' failed. Read: m84031_231217_062403_s3/122291853/ccs. Seed: 0+,0,0,0
+Alignment finished
+Input reads: 5764123 (92082755430bp)
+Seeds found: 923741619773
+Seeds extended: 28820610
+Reads with a seed: 5764123 (92082755430bp)
+Reads with an alignment: 5764122 (91894289169bp)
+Alignments: 10783904 (136160357393bp) (15497050 additional alignments discarded)
+End-to-end alignments: 5210085 (81890004692bp)
+Alignment broke with some reads. Look at stderr output.
+	Command being timed: "/home/akmuhammet/tools/GraphAligner/bin/GraphAligner -g human_v38.pggb.lcpan.gfa -f /home/akmuhammet/data/hg002/hg002v1.0.1_hifi_revio_pbmay24.fa -a hg002.hifi.lcpan.gaf -x vg -t 96"
+	User time (seconds): 21662988.34
+	System time (seconds): 205303.41
+	Percent of CPU this job got: 9525%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 63:46:26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 230775448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 178
+	Minor (reclaiming a frame) page faults: 66170428420
+	Voluntary context switches: 265408470
+	Involuntary context switches: 37359910
+	Swaps: 0
+	File system inputs: 120
+	File system outputs: 67496264
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
