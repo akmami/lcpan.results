@@ -1,0 +1,272 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 58.24      2.58     2.58       24     0.11     0.11  vgx_process_chrom
+ 12.87      3.15     0.57        1     0.57     0.57  print_path
+  6.32      3.43     0.28        1     0.28     0.85  vg_read_vcf
+  5.19      3.66     0.23       14     0.02     0.04  vg_read_vcf_thd
+  4.06      3.84     0.18                             _init
+  2.26      3.94     0.10        1     0.10     2.68  read_fasta
+  2.03      4.03     0.09 12624253     0.00     0.00  print_seq_vg
+  2.03      4.12     0.09        1     0.09     0.09  refine_seqs
+  1.81      4.20     0.08     2018     0.00     0.00  vg_variate_sv
+  1.58      4.27     0.07   321588     0.00     0.00  print_seq
+  1.35      4.33     0.06    33490     0.00     0.00  quicksort
+  1.13      4.38     0.05 12218448     0.00     0.00  print_link
+  0.90      4.42     0.04        1     0.04     0.04  free_ref_seq
+  0.23      4.43     0.01                             vg_print_seq
+  0.00      4.43     0.00       32     0.00     0.00  open_file_w
+  0.00      4.43     0.00       16     0.00     0.00  tpool_add_work
+  0.00      4.43     0.00        1     0.00     0.00  free_opt_arg
+  0.00      4.43     0.00        1     0.00     0.00  open_file_r
+  0.00      4.43     0.00        1     0.00     0.00  open_files
+  0.00      4.43     0.00        1     0.00     0.00  parse_opts
+  0.00      4.43     0.00        1     0.00     0.00  tpool_create
+  0.00      4.43     0.00        1     0.00     0.00  tpool_destroy
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.23% of 4.43 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     82.6    0.00    3.66                 main [1]
+                0.10    2.58       1/1           read_fasta [2]
+                0.28    0.57       1/1           vg_read_vcf [4]
+                0.09    0.00       1/1           refine_seqs [11]
+                0.04    0.00       1/1           free_ref_seq [15]
+                0.00    0.00       1/1           parse_opts [22]
+                0.00    0.00       1/1           free_opt_arg [19]
+-----------------------------------------------
+                0.10    2.58       1/1           main [1]
+[2]     60.5    0.10    2.58       1         read_fasta [2]
+                2.58    0.00      24/24          vgx_process_chrom [3]
+-----------------------------------------------
+                2.58    0.00      24/24          read_fasta [2]
+[3]     58.2    2.58    0.00      24         vgx_process_chrom [3]
+-----------------------------------------------
+                0.28    0.57       1/1           main [1]
+[4]     19.2    0.28    0.57       1         vg_read_vcf [4]
+                0.57    0.00       1/1           print_path [5]
+                0.00    0.00   53556/12624253     print_seq_vg [10]
+                0.00    0.00      15/321588      print_seq [12]
+                0.00    0.00      14/12218448     print_link [14]
+                0.00    0.00      32/32          open_file_w [17]
+                0.00    0.00      16/16          tpool_add_work [18]
+                0.00    0.00       1/1           open_files [21]
+                0.00    0.00       1/1           tpool_create [23]
+                0.00    0.00       1/1           open_file_r [20]
+                0.00    0.00       1/1           tpool_destroy [24]
+-----------------------------------------------
+                0.57    0.00       1/1           vg_read_vcf [4]
+[5]     12.9    0.57    0.00       1         print_path [5]
+-----------------------------------------------
+                0.23    0.32      14/14          tpool_worker [7]
+[6]     12.4    0.23    0.32      14         vg_read_vcf_thd [6]
+                0.08    0.14    2018/2018        vg_variate_sv [8]
+                0.06    0.00   33490/33490       quicksort [13]
+                0.04    0.00  190986/321588      print_seq [12]
+                0.00    0.00  303525/12218448     print_link [14]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]     12.4    0.00    0.55                 tpool_worker [7]
+                0.23    0.32      14/14          vg_read_vcf_thd [6]
+-----------------------------------------------
+                0.08    0.14    2018/2018        vg_read_vcf_thd [6]
+[8]      4.9    0.08    0.14    2018         vg_variate_sv [8]
+                0.09    0.00 12570697/12624253     print_seq_vg [10]
+                0.05    0.00 11780755/12218448     print_link [14]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      4.1    0.18    0.00                 _init [9]
+-----------------------------------------------
+                0.00    0.00   53556/12624253     vg_read_vcf [4]
+                0.09    0.00 12570697/12624253     vg_variate_sv [8]
+[10]     2.0    0.09    0.00 12624253         print_seq_vg [10]
+-----------------------------------------------
+                0.09    0.00       1/1           main [1]
+[11]     2.0    0.09    0.00       1         refine_seqs [11]
+-----------------------------------------------
+                0.00    0.00      15/321588      vg_read_vcf [4]
+                0.03    0.00  130587/321588      vg_print_seq [16]
+                0.04    0.00  190986/321588      vg_read_vcf_thd [6]
+[12]     1.6    0.07    0.00  321588         print_seq [12]
+-----------------------------------------------
+                                 204             quicksort [13]
+                0.06    0.00   33490/33490       vg_read_vcf_thd [6]
+[13]     1.4    0.06    0.00   33490+204     quicksort [13]
+                                 204             quicksort [13]
+-----------------------------------------------
+                0.00    0.00      14/12218448     vg_read_vcf [4]
+                0.00    0.00  134154/12218448     vg_print_seq [16]
+                0.00    0.00  303525/12218448     vg_read_vcf_thd [6]
+                0.05    0.00 11780755/12218448     vg_variate_sv [8]
+[14]     1.1    0.05    0.00 12218448         print_link [14]
+-----------------------------------------------
+                0.04    0.00       1/1           main [1]
+[15]     0.9    0.04    0.00       1         free_ref_seq [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     0.9    0.01    0.03                 vg_print_seq [16]
+                0.03    0.00  130587/321588      print_seq [12]
+                0.00    0.00  134154/12218448     print_link [14]
+-----------------------------------------------
+                0.00    0.00      32/32          vg_read_vcf [4]
+[17]     0.0    0.00    0.00      32         open_file_w [17]
+-----------------------------------------------
+                0.00    0.00      16/16          vg_read_vcf [4]
+[18]     0.0    0.00    0.00      16         tpool_add_work [18]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[19]     0.0    0.00    0.00       1         free_opt_arg [19]
+-----------------------------------------------
+                0.00    0.00       1/1           vg_read_vcf [4]
+[20]     0.0    0.00    0.00       1         open_file_r [20]
+-----------------------------------------------
+                0.00    0.00       1/1           vg_read_vcf [4]
+[21]     0.0    0.00    0.00       1         open_files [21]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[22]     0.0    0.00    0.00       1         parse_opts [22]
+-----------------------------------------------
+                0.00    0.00       1/1           vg_read_vcf [4]
+[23]     0.0    0.00    0.00       1         tpool_create [23]
+-----------------------------------------------
+                0.00    0.00       1/1           vg_read_vcf [4]
+[24]     0.0    0.00    0.00       1         tpool_destroy [24]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+   [9] _init                   [5] print_path             [24] tpool_destroy
+  [19] free_opt_arg           [12] print_seq              [16] vg_print_seq
+  [15] free_ref_seq           [10] print_seq_vg            [4] vg_read_vcf
+  [20] open_file_r            [13] quicksort               [6] vg_read_vcf_thd
+  [17] open_file_w             [2] read_fasta              [8] vg_variate_sv
+  [21] open_files             [11] refine_seqs             [3] vgx_process_chrom
+  [22] parse_opts             [18] tpool_add_work
+  [14] print_link             [23] tpool_create

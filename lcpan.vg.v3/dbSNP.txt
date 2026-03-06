@@ -1,0 +1,35 @@
+1
+Averages across runs:
+Avg Execution time (s): 161.078000
+Avg Merge time (s): 7.842000
+Avg Total runtime (s): 168.920000
+Avg Max RAM usage (GB): 5.160000
+Avg File size (GB): 11.420000
+2
+Averages across runs:
+Avg Execution time (s): 126.616000
+Avg Merge time (s): 7.988000
+Avg Total runtime (s): 134.604000
+Avg Max RAM usage (GB): 5.160000
+Avg File size (GB): 11.420000
+4
+Averages across runs:
+Avg Execution time (s): 117.692000
+Avg Merge time (s): 8.048000
+Avg Total runtime (s): 125.740000
+Avg Max RAM usage (GB): 5.160000
+Avg File size (GB): 11.580000
+8
+Averages across runs:
+Avg Execution time (s): 151.074000
+Avg Merge time (s): 8.492000
+Avg Total runtime (s): 159.566000
+Avg Max RAM usage (GB): 5.160000
+Avg File size (GB): 11.660000
+16
+Averages across runs:
+Avg Execution time (s): 161.316000
+Avg Merge time (s): 8.474000
+Avg Total runtime (s): 169.790000
+Avg Max RAM usage (GB): 5.160000
+Avg File size (GB): 11.700000
