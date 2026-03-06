@@ -5,3 +5,47 @@ for t in 1 2 4 8 16; do sudo perf sched timehist --summary -i perf.lcpan.t${t}.s
 
 # Latency
 for t in 1 2 4 8 16; do sudo perf sched latency -i perf.lcpan.t${t}.sched.data > perf.lcpan.sched.t${t}.latency.txt; done
+
+parse_sched_latency () {
+
+    file=$1
+    threads=$2
+
+    awk -F'\\|' '
+    /lcpan:|main:|worker-/ {
+
+        runtime=$2
+        gsub(/[^0-9.]/,"",runtime)
+
+        switches=$3
+        gsub(/[^0-9]/,"",switches)
+
+        avg=$4
+        sub(/.*avg:[ ]*/,"",avg)
+        sub(/ ms.*/,"",avg)
+
+        total_runtime+=runtime
+        total_switches+=switches
+        total_latency+=switches*avg
+    }
+
+    END{
+
+        avg_latency = total_latency/total_switches
+        sched_pct = (total_latency/total_runtime)*100
+
+        printf "%s\t%.2f\t%.3f\t%.3f\t%.4f\n",
+            threads,
+            total_runtime/1000,
+            total_latency,
+            avg_latency*1000,
+            sched_pct
+    }
+    ' "$file"
+}
+
+echo -e "Threads\tRuntime(s)\tLatency(ms)\tAvgLatency(us)\tSchedOverhead(%)"
+
+for t in 1 2 4 8 16; do
+    parse_sched_latency perf.lcpan.sched.t${t}.latency.txt $t
+done
