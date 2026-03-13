@@ -1,0 +1,35 @@
+hg38.pggb.lcpan.t16.r1.gfa stats:
+Execution time (s): 82.64
+Merge time (s): 14.79
+Total runtime (s): 97.43
+Max RAM usage (GB): 11.75
+File size (GB): 18.99
+
+hg38.pggb.lcpan.t16.r2.gfa stats:
+Execution time (s): 79.60
+Merge time (s): 14.19
+Total runtime (s): 93.79
+Max RAM usage (GB): 11.84
+File size (GB): 19.00
+
+hg38.pggb.lcpan.t16.r3.gfa stats:
+Execution time (s): 75.99
+Merge time (s): 14.08
+Total runtime (s): 90.07
+Max RAM usage (GB): 12.49
+File size (GB): 18.96
+
+hg38.pggb.lcpan.t16.r4.gfa stats:
+Execution time (s): 87.98
+Merge time (s): 14.76
+Total runtime (s): 102.74
+Max RAM usage (GB): 12.15
+File size (GB): 18.99
+
+hg38.pggb.lcpan.t16.r5.gfa stats:
+Execution time (s): 82.71
+Merge time (s): 13.95
+Total runtime (s): 96.66
+Max RAM usage (GB): 12.40
+File size (GB): 19.10
+

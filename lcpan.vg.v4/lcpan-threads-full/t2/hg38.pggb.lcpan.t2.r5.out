@@ -1,0 +1,54 @@
+[INFO] Ref: /tmp/lcpan/human_v38.fa
+[INFO] VCF: /tmp/lcpan/hprc-v1.0-pggb.grch38.1-22+X.vcf
+[INFO] Output: hg38.pggb.lcpan.t2.r5.gfa
+[INFO] GFA: GFA, NonOv/Ov: NonOv, LCP level: 5, thd: 2
+[INFO] Processing reference...
+[INFO] Reference processing completed in 37.00 sec.
+[INFO] Processing variations...
+[INFO] VCF processing completed in 120.00 sec.
+	Command being timed: "/home/akmuhammet/programs/lcpan/bin/lcpan -vg -r /tmp/lcpan/human_v38.fa -v /tmp/lcpan/hprc-v1.0-pggb.grch38.1-22+X.vcf -p hg38.pggb.lcpan.t2.r5 -t 2 --gfa --full-parallel --verbose"
+	User time (seconds): 284.01
+	System time (seconds): 47.81
+	Percent of CPU this job got: 204%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:42.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7428488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22147038
+	Voluntary context switches: 1849296
+	Involuntary context switches: 702
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 39430168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash /home/akmuhammet/programs/lcpan/lcpan-merge.sh hg38.pggb.lcpan.t2.r5.log"
+	User time (seconds): 0.03
+	System time (seconds): 12.97
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3279
+	Voluntary context switches: 56
+	Involuntary context switches: 124
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 39430120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

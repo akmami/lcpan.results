@@ -1,0 +1,6 @@
+Averages across runs:
+Avg Execution time (s): 161.286000
+Avg Merge time (s): 13.092000
+Avg Total runtime (s): 174.378000
+Avg Max RAM usage (GB): 7.070000
+Avg File size (GB): 18.800000
